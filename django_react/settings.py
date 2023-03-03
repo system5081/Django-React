@@ -11,7 +11,6 @@ https://docs.djangoproject.com/en/3.1/ref/settings/
 """
 
 from pathlib import Path
-import seacretVal
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -88,7 +87,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'main',
         'USER': 'root',
-        'PASSWORD': seacretVal.databasePassword,
+        'PASSWORD': 'password',
         'HOST': 'db',
         'PORT': '3306',
     }
