@@ -1,0 +1,2 @@
+export const SELL_MEAT="SELLMEAT";
+export const SELL_VEGETABLE="SELLVEGETABLE";

@@ -1,0 +1,4 @@
+FROM node:18.14.2-alpine
+WORKDIR /usr/src/app
+RUN npm install
+RUN npm i axios@0.27.2
